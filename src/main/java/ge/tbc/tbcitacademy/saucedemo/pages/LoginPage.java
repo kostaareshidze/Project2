@@ -14,4 +14,8 @@ public class LoginPage {
     public SelenideElement error = $x("//h3");
     public SelenideElement errorX = $(".error-button");
     public ElementsCollection doubleErrorX = $$(".svg-inline--fa.fa-times-circle");
+
+    public static void main(String[] args) {
+        System.out.println("daviwyet");
+    }
 }

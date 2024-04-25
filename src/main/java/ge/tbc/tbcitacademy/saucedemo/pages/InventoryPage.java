@@ -9,4 +9,8 @@ public class InventoryPage {
     public ElementsCollection inventories = $$x("//img[@class='inventory_item_img']");
     public SelenideElement threeLineButton = $("#react-burger-menu-btn");
     public SelenideElement logOutButton = $("#logout_sidebar_link");
+
+    public static void main(String[] args) {
+        System.out.println("daviwyet");
+    }
 }

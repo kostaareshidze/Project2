@@ -32,5 +32,8 @@ public class CustomTestListener implements ITestListener {
         return new ByteArrayInputStream(screenBytes);
     }
 
+    public static void main(String[] args) {
+        System.out.println("daviwyet");
+    }
 }
 

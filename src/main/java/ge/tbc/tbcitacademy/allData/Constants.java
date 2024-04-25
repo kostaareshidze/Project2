@@ -8,4 +8,8 @@ public class Constants {
     public static final int one = 1;
     public static final int two = 2;
     public static final int three = 3;
+
+    public static void main(String[] args) {
+        System.out.println("daviwyet");
+    }
 }
