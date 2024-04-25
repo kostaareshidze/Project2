@@ -16,6 +16,9 @@ public class LoginPage {
     public ElementsCollection doubleErrorX = $$(".svg-inline--fa.fa-times-circle");
 
     public static void main(String[] args) {
+
         System.out.println("movrchit");
+
+
     }
 }
