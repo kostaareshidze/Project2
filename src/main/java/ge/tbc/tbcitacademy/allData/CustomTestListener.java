@@ -34,6 +34,7 @@ public class CustomTestListener implements ITestListener {
 
     public static void main(String[] args) {
         System.out.println("movrchit");
+
     }
 }
 
