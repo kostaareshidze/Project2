@@ -11,6 +11,8 @@ public class InventoryPage {
     public SelenideElement logOutButton = $("#logout_sidebar_link");
 
     public static void main(String[] args) {
-        System.out.println("daviwyet");
+        System.out.println("movrchit");
+
+
     }
 }
