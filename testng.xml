@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests">
+    <!-- Swoop Regression Group -->
+    <test name="Swoop Regression Tests">
+        <groups>
+            <run>
+                <include name="SwoopRegression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ge.tbc.tbcitacademy.tests.swoop.SwoopBaseTest"/>
+            <!-- Add more Swoop test classes here if needed -->
+        </classes>
+    </test>
+
+    <!-- SauceDemo Login Group -->
+    <test name="SauceDemo Login Tests">
+        <groups>
+            <run>
+                <include name="SauceDemoLogin"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="ge.tbc.tbcitacademy.tests.saucedemo.LoginTests"/>
+            <!-- Add more SauceDemo test classes here if needed -->
+        </classes>
+    </test>
+</suite>
